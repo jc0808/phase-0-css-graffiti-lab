@@ -1,1 +1,27 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display:none;
+}
+
+body #wall > .parent > #tag-4{
+    z-index: 6;
+    
+}
+
+body #wall > #tag-2{
+    position: relative;
+    top: 28%;
+    z-index: 6;
+    
+}
+
+body #wall > #tag-3.slick.wicked{
+    left: 30%;
+    top: -20%;
+    z-index: 8;
+    
+}
+
+body div#wall > div[class="parent"] > div > div#tag-7[class="slick"]{
+   z-index: 9;
+}
